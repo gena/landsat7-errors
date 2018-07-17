@@ -8,7 +8,7 @@ python landsat7_overflow_errors.py --scene-dir=data --offset=1000000 --count=200
 ```
 
 Original:
-!fig_nofix.png!
+![no fix](https://github.com/gena/landsat7-errors/blob/master/fig_nofix.png?raw=true)
 
 After a simple fix, masking out values equal 255, but also very low values:
-!fig_fix.png!
+![fix](https://github.com/gena/landsat7-errors/blob/master/fig_fix.png?raw=true)
